@@ -1,9 +1,8 @@
-package session_2.thuchanh;
+package session_2.thuc_hanh;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class timuocchung_lonnhat {
+public class TimUocChungLonNhat {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("enter a :");

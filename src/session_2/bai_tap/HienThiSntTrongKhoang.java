@@ -1,10 +1,8 @@
-package session_2.baitap;
-
-import com.sun.org.apache.xpath.internal.objects.XString;
+package session_2.bai_tap;
 
 import java.util.Scanner;
 
-public class hienthi_sntbehon100 {
+public class HienThiSntTrongKhoang {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int choice = -1;

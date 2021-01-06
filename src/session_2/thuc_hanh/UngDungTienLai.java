@@ -1,8 +1,8 @@
-package session_2.thuchanh;
+package session_2.thuc_hanh;
 
 import java.util.Scanner;
 
-public class ungdung_tinhtienlaichovay {
+public class UngDungTienLai {
     public static void main(String[] args) {
         Scanner input=new Scanner (System.in);
         System.out.println("nhap so tien gui");

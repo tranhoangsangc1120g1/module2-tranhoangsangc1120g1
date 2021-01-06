@@ -1,8 +1,8 @@
-package session_2.thuchanh;
+package session_2.thuc_hanh;
 
 import java.util.Scanner;
 
-public class thietke_menuchoungdung {
+public class ThietKeMenuChoUngDung {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int choice = -1;

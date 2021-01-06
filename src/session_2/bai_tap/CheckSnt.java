@@ -1,8 +1,8 @@
-package session_2.baitap;
+package session_2.bai_tap;
 
 import java.util.Scanner;
 
-public class songuyento {
+public class CheckSnt {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int choice = -1;
