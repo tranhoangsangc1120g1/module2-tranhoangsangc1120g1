@@ -21,11 +21,11 @@ public class XoaPhanTuTrongMang {
         System.out.println("pls Input number to deleted");
         int x = input.nextInt();
         int[] arr2=new int[n];
-        int count1=0;
+        int count=0;
         for (int i=0;i<n;i++){
             if (arr[i]!=x){
-                arr2[count1]=arr[i];
-                count1++;
+                arr2[count]=arr[i];
+                count++;
             }
         }
         for (int value : arr2) {
