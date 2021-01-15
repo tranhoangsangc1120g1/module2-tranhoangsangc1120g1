@@ -5,11 +5,11 @@ import java.util.Arrays;
 public class TrienKhaiListDonGian {
     public static class Mylist<E> {
         private int size = 0;
-        private static final int defaultCapacity = 10;
+        private static final int DEFAULT_CAPACITY = 10;
         private Object[] arr;
 
         public Mylist() {
-            arr = new Object[defaultCapacity];
+            arr = new Object[DEFAULT_CAPACITY];
         }
 
         private void ensureCapa() {
@@ -42,6 +42,5 @@ public class TrienKhaiListDonGian {
             System.out.println("element 4 :" + listInteger.get(4));
             System.out.println(listInteger.get(-1));
         }
-
     }
 }
