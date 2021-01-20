@@ -9,11 +9,15 @@ public class HeNhiPhan {
         System.out.println("nhập số cần chuyển");
         int num=input.nextInt();
         Stack<Integer> stack= new Stack<Integer>() ;
-        while (num!=0){
-            int du=num%2;
-            stack.push(du);
-            num=num/2;
+        if(num>0){
+            while (num!=0){
+                int du=num%2;
+                stack.push(du);
+                num=num/2;
+            }
         }
+
+
 //        for (int i=stack.size()-1;i>=0;i--){
 //            stack.push(stack.remove(i));
 //        }

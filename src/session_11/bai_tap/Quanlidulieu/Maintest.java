@@ -3,7 +3,6 @@ package session_11.bai_tap.Quanlidulieu;
 import java.util.*;
 
 public class Maintest {
-
     public static void main(String[] args) {
         ArrayList<Employment> employmentArrayList=new ArrayList<>();
         employmentArrayList.add(new Employment("Ngọc","Nu","11/2/2210"));
@@ -12,9 +11,7 @@ public class Maintest {
         employmentArrayList.add(new Employment("Ngọc3","Nam","13/2/2210"));
         Queue<Employment> queueNam=new ArrayDeque<>();
         Queue<Employment> queueNu=new ArrayDeque<>();
-
         Collections.sort(employmentArrayList,new EmploymentComparBirthday());
-
         for (Employment employment: employmentArrayList){
             if (employment.getGender().equals("Nu")){
                 queueNu.add(employment);
