@@ -4,11 +4,11 @@ public abstract class Services {
     private String id;
     private String nameServices;
     private String area;
-    private String price;
-    private String people;
+    private double price;
+    private int people;
     private String type;
 
-    public Services(String id, String nameServices, String area, String price, String people, String type) {
+    public Services(String id, String nameServices, String area, double price, int people, String type) {
         this.id = id;
         this.nameServices = nameServices;
         this.area = area;
@@ -44,19 +44,19 @@ public abstract class Services {
         this.area = area;
     }
 
-    public String getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(String price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 
-    public String getPeople() {
+    public int getPeople() {
         return people;
     }
 
-    public void setPeople(String people) {
+    public void setPeople(int people) {
         this.people = people;
     }
 
@@ -79,5 +79,5 @@ public abstract class Services {
                 ", type='" + type + '\'' +
                 '}';
     }
-    public abstract String showInfo();
+    public abstract void showInfor();
 }
